@@ -1,0 +1,78 @@
+body{
+    background-color: #F3F6FA;
+    margin: auto;
+}
+.main{
+    margin: auto;
+    margin-top: 10%;
+    width: 38%;
+    background-color: #FFFFFF;
+    border-radius: 2em;
+}
+.main h2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: revert;
+}
+
+.main .section{
+    padding: 8% 0% 10% 0%;
+}
+
+form{
+    line-height: 1.75;
+}
+
+form .box1 {
+    margin: auto;
+    display: flex;  
+    justify-content: space-between;
+    width: 68%;
+    margin-top: 5%;
+}
+form .box2{
+    margin: auto;
+    width: 68%;
+    margin-top: 5%;
+}
+form .box2 #result{
+    inline-size: -webkit-fill-available;
+}
+form .box3{
+    margin: auto;
+    width: 68%;
+    text-align: center;
+    display: grid;
+    margin-top: 5%;
+}
+form .box3 .btn-convert{
+    padding: 4%;
+    border-radius: 1em;
+    background: #007AFF;
+    color: white;
+    border: #007AFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+form label{
+    color: #989898;
+}
+
+form input{
+    border: none;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: #989898;
+    outline: none;
+    font-size: large;
+}
+
+form select{
+    border: none;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: #989898;
+    outline: none;
+    font-size: large;
+    margin-top: 3%;
+}

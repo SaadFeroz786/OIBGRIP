@@ -1,0 +1,224 @@
+@import url('http://fonts.cdnfonts.com/css/brittany-signature');
+@import url('http://fonts.cdnfonts.com/css/lora');
+
+                
+
+body{
+    margin: auto;
+    background-image: url("./img/Background.png");
+    background-size: cover;
+}
+.header{
+    display: flex;
+    padding: 15%;
+    justify-content: space-evenly;
+}
+.header .profilepic{
+    width: 25%;
+}
+.header .profilepic img{
+    max-width: 100%;
+    border-radius: 10em 10em 0em 0em;
+}
+.header .description{
+    width: 38%;
+}
+.header h1{
+    font-family: 'Brittany Signature', sans-serif;
+    color: #A25A3A;
+    margin: auto;
+}
+.header .description .title{
+    font-size: xx-large;
+    margin: auto;
+}
+.header .description .name{
+    font-size: x-large;
+}
+.section2{
+    margin-top: 20%;
+}
+.section2 .section2_img1{
+    padding: 5% 5% 0% 10%;
+    width: 30%;
+}
+.section2 .section2_img1 img{
+    max-width: 100%;
+    border-radius: 2em;
+}
+.section2 .description1{
+    margin: auto;
+    width: 25%;
+    float: right;
+    border-left: solid;
+    padding-left: 1%;
+    padding-bottom: 0%;
+}
+.section2 .box1{
+    display: flex;
+    flex-direction: row;
+}
+.section2 .description1 p{
+    margin: auto;
+    font-family: 'Lora', sans-serif;
+}
+
+.section2 .section2_img2{
+    padding: 0% 12% 5% 5%;
+    width: 30%;
+}
+.section2 .section2_img2 img{
+    max-width: 100%;
+    border-radius: 2em;
+}
+.section2 .greetings{
+    padding: 0% 5% 5% 10%;
+    padding-top: 0%;
+}
+.section2 .greetings .text1{
+    font-family: 'Brittany Signature', sans-serif;
+    color: #A25A3A;
+    font-size: 2.5em;
+    margin: auto;
+}
+.section2 .greetings .text2{
+    font-size: 3em;
+    margin: auto;
+}
+.section2 .box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.section3{
+    display: flex;
+    margin: auto;
+    align-content: center;
+    justify-content: space-around;
+    padding: 15% 10% 15% 10%;
+    align-items: center;
+}
+.section3 .box1 .text1{
+    margin: auto;
+    font-family: 'Brittany Signature', sans-serif;
+    color: #A25A3A;
+    font-size: xx-large;
+}
+.section3 .box1 .text2{
+    margin: auto;
+    font-size: xx-large;
+}
+.section3 .box2{
+    border-left: solid;
+    border-color: #A25A3A;
+    font-family: 'Lora', sans-serif;
+    
+}
+.section3 .box3{
+    width: 30%;
+}
+.section3 .box3 img{
+    max-width: 100%;
+}
+
+.section4{
+    padding: 15% 10% 15% 10%;
+}
+
+.section4 .experience_box{
+    display: flex;
+    margin: auto;
+    align-items: end;
+    width: 80%;
+    align-content: space-between;
+}
+
+.section4 .experience_box img{
+    max-width: 100%;
+    border-radius: 5em 5em 0em 0em;
+}
+
+.section4 .box1 .text1{
+    margin: auto;
+    font-family: 'Brittany Signature', sans-serif;
+    color: #A25A3A;
+    font-size: xx-large;
+}
+
+.section4 .box1 .text2{
+    margin: auto;
+    font-size: xx-large;
+}
+.section4 .box1 .text3{
+    font-family: 'Lora', sans-serif;
+}
+.section4 .box2{
+    margin-left: 10em;
+}
+.section4 .box3 img{
+    max-width: 25%;
+}
+
+.section4 .box3{
+    display: flex;
+    padding: 8% 10% 0% 6%;;
+    width: 50%;
+}
+
+.section4 .box3 .projects{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section4 .box3 .experience{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section4 .box3 p{
+    margin: auto;
+    color: #A25A3A;
+    font-family: 'Lora', sans-serif;
+}
+
+.section5 .credits{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+.section5 .credits .text1{
+    margin: auto;
+    font-family: 'Brittany Signature', sans-serif;
+    color: #A25A3A;
+    font-size: 4em;
+}
+.section5 .credits .text2
+{
+    margin: auto;
+    font-size: 4em;
+}
+.section5 .contactus{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border-top: groove;
+    border-width: thin;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.section5 .contactus .box{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.section5 .contactus img{
+    max-width: 100%;
+    margin: auto;
+}
